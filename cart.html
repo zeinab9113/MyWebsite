@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سلة التسوق</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>سلة التسوق</h1>
+        <nav>
+            <a href="index.html">الرئيسية</a>
+            <a href="search.html">البحث عن كتاب</a>
+            <a href="cart.html">سلة التسوق</a>
+        </nav>
+    </header>
+    <main>
+        <section id="cart-items">
+            <!-- قائمة الكتب في السلة ستظهر هنا -->
+        </section>
+        <form id="checkout-form">
+            <h2>تفاصيل الاستلام والدفع</h2>
+            <label for="pickup-location">اختيار فرع الاستلام:</label>
+            <select id="pickup-location">
+                <option value="branch1">الفرع 1</option>
+                <option value="branch2">الفرع 2</option>
+                <!-- أضف المزيد من الفروع هنا -->
+            </select>
+            <label for="payment-method">طريقة الدفع:</label>
+            <select id="payment-method">
+                <option value="credit-card">بطاقة ائتمان</option>
+                <option value="paypal">باي بال</option>
+                <!-- أضف المزيد من طرق الدفع هنا -->
+            </select>
+            <button type="submit">إتمام الشراء</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 مكتبة الكتب</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

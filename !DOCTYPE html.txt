@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مكتبة الكتب</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>مرحباً بكم في مكتبة الكتب</h1>
+        <nav>
+            <a href="index.html">الرئيسية</a>
+            <a href="search.html">البحث عن كتاب</a>
+            <a href="cart.html">سلة التسوق</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>الكتب المميزة</h2>
+            <div class="books">
+                <!-- أضف هنا بعض الكتب المميزة كأمثلة -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 مكتبة الكتب</p>
+    </footer>
+</body>
+</html>
